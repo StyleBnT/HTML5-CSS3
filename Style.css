@@ -1,0 +1,191 @@
+@import url(<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.inicio{
+   background: linear-gradient(to right, #e2e2e4, #d7d8db, #cfd1d4, #c5c7cb);
+
+
+}
+
+.container{
+    max-width: 1440px;
+    padding: 0 0;
+    margin: 0 auto;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    padding:  20px 0;
+
+}
+
+.btn-gradiente{
+    padding: 10px 25px;
+    color: whitesmoke;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(silver, black);
+    cursor: pointer;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.ul{
+    display: flex;
+    align-items: center;
+}
+
+.ul li{
+    margin: 0 35px;
+    font-size: 15px;
+}
+
+.ul li a{
+    color: white;
+}
+
+/*main*/
+main .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.main-text{
+    width: 30%;
+    color: black;
+}
+
+.main-text h1{
+    font-size: 4rem;
+}
+
+.main-text div{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.main-img{
+    width: 50%;
+}
+
+.main-img img{
+    width: 100%;
+}
+
+/*Menu icon*/
+.menu-icon{
+    display: none;
+}
+
+.diferenciais .container{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+}
+
+.diferenciais .card{
+    width: 40%;
+    cursor: pointer;
+    padding: 10px;
+    text-align: center;
+    border-radius: 25px;
+    transition: 1s;
+
+}
+
+.diferenciais .card .titulo{
+    margin: 13px 0;
+    font-weight: 600;
+
+}
+
+.diferenciais .card .card-text{
+    padding: 15px 0;
+   
+}
+
+.diferenciais .card:hover{
+    box-shadow: 0 10px 9px 9px silver;
+}
+ /*intervalo*/
+.Redmi .container{
+    align-items: center;
+    text-align: center;
+}
+
+.Redmi .container .titulo{
+   
+     margin: 13px 0;
+    font-weight: 600;
+
+}
+
+.Redmi .container .Redmi-text{
+    padding: 15px 0;
+}
+/*fim de intervalo*/
+
+/*section Note*/
+.Note .container{
+    display: flex;
+    align-items: center;
+} 
+.Note .Note-img{
+    width: 70%;
+}
+
+.Note .Note-img img{
+    width: 100%;
+    border-radius: 40%;
+}
+
+.Note .Note-text{
+    width: 30%;
+    padding-left: 90px;
+    text-align: center;
+}
+
+.Note .Note-text h1{
+    font-size: 2.5em;
+}
+
+.Note .Note-text p{
+    margin: 20px;
+}
+
+
+
+
+
+
+/*Responsivo*/
+@media (max-width: 960px){
+    .menu-icon{
+    display: block;
+    position: relative;
+    z-index: 10;
+}
+    
+}
